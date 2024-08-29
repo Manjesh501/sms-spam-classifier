@@ -26,7 +26,7 @@ The SMS Spam Classifier is a machine learning project that classifies SMS messag
 
    ```bash
    python -m venv venv
-   .venv/bin/activate
+   ./venv/Scripts/Activate
    ```
 
 3. **Install Dependencies**
