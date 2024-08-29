@@ -43,7 +43,7 @@ print(f'Accuracy: {accuracy_score(y_test, y_pred)}')
 print(f'Confusion Matrix:\n{confusion_matrix(y_test, y_pred)}')
 print(f'Precision: {precision_score(y_test, y_pred)}')
 
-with open('models/vectorizer.pkl', 'wb') as f:
+with open('vectorizer.pkl', 'wb') as f:
     pickle.dump(tfidf, f)
-with open('models/model.pkl', 'wb') as f:
+with open('model.pkl', 'wb') as f:
     pickle.dump(model, f)
